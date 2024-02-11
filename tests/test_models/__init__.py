@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-"""Initializes tests.
-"""
+'''__init__ file'''
