@@ -240,12 +240,13 @@ class HBNBCommand(cmd.Cmd):
     def help_update(self):
         '''HELP_UPDATE'''
         print(
-                "Update Command t Updates an instance based on the <Model_name>\
+                "Update Command t Updates an instance based  <Model_name>\
                 \nand <id> by adding or updating attribute.\
                 \nExample:\
                 \n> update <Model_name> <id> <attribute name> <value>\
                 \n"
         )
 
-if __name__ == '__main__':
+
+  if __name__ == '__main__':
     HBNBCommand().cmdloop()

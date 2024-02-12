@@ -230,6 +230,7 @@ class TestConsole(unittest.TestCase):
             self.assertEqual(
                 '', f.getvalue())
 
+
 if __name__ == "__main__":
     '''__name___'''
     unittest.main()
